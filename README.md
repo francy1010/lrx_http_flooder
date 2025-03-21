@@ -66,6 +66,7 @@ If you encounter any issues, feel free to open an issue on the GitHub repository
 
 
 ALL TERMUX CODE
+
 pkg update && pkg upgrade -y
 pkg install python -y
 pip install --upgrade pip
