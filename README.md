@@ -68,12 +68,19 @@ If you encounter any issues, feel free to open an issue on the GitHub repository
 ALL TERMUX CODE
 
 pkg update && pkg upgrade -y
+
 pkg install python -y
+
 pip install --upgrade pip
+
 pkg install git -y
+
 git clone https://github.com/YourUsername/LRX-HTTP-Flooder.git
+
 cd LRX-HTTP-Flooder
+
 pip install requests matplotlib
+
 python lrx_http_flooder.py --target https://example.com --duration 300 --threads 600
 
 
